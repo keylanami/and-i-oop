@@ -52,6 +52,8 @@ public class inventory {
 }
 
 
+
+
     public void showData(){
         if (identitas.isEmpty()) {
             System.out.println("Data not found");
