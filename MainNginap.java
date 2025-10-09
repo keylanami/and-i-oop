@@ -1,5 +1,4 @@
 public class MainNginap {
-    
     public static void main(String[] args) {
         Penginapan inn = new Penginapan("Nod Krai", "Gang Demang 1");
 
@@ -7,6 +6,7 @@ public class MainNginap {
         Tamu tm1 = new Tamu("Eskopi", 03);
         Tamu tm2 = new Tamu("Furina", 14);
         Tamu tm3 = new Tamu("Epal", 05);
+
 
         inn.catatMasuk(tm);
         inn.catatMasuk(tm1);
@@ -17,6 +17,8 @@ public class MainNginap {
 
         inn.catatKeluar(tm3);
         inn.catatKeluar(tm);
+
+        inn.tampilkanDaftarTamu();
 
     }
 }

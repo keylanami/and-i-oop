@@ -27,7 +27,7 @@ public class Senjata {
 
     public void upgrade(int power){
         this.power+= power;
-        System.out.println(this.nama + "di-upgrade! Power Sekarang: " + this.power);
+        System.out.println(this.nama + " di-upgrade! Power Sekarang: " + this.power);
     }
 
 }

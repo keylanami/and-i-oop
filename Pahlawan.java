@@ -36,9 +36,7 @@ public class Pahlawan {
     }
 
 
-
     
-
     public void equipWeapon(Senjata weapon) {
         this.weapon = weapon;
     }
