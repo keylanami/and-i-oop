@@ -20,8 +20,8 @@ public class Main02 {
                     System.out.print("Masukkan sisi miring: ");
                     int sismir = hi.nextInt();
 
-
-                    Segitiga.keliling(alas, tinggi, sismir);
+                    // not much explaination required sih di main ini, masuk masukkin aja ke functionnya
+                    Segitiga.keliling(alas, tinggi, sismir); // manggil class where those methods are placed terus akses targetted method 
                     break;
                 
                 case 2:
@@ -31,7 +31,7 @@ public class Main02 {
                     System.out.print("Masukkan sisi miring: ");
                     double sisi = hi.nextDouble();
 
-                    
+                    // yaa same thing
                     Segitiga.luas(alass, sisi);
                     break;
                 
