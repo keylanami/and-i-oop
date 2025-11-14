@@ -1,4 +1,4 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
         Film test = new Film("Test Movie", "Testland", 200, 2025);
         test.addActor("Hola");
