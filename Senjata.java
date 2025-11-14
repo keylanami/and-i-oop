@@ -1,4 +1,4 @@
-public class Senjata {
+public abstract class Senjata implements AksiSenjata {
     private String nama;
     private int power;
 
@@ -15,13 +15,22 @@ public class Senjata {
         return power;
     }
     
-    public String attack(){
+   @Override
+   public String attack() {
        return "Senjata " + getNama() + " menyerang dengan kekuatan " + getPower();
-    }
+   }
 
-    public String attack(String jurus){ // special
-        return "Senjata " + getNama() + " menggunakan jurus " + jurus + " menyerang dengan kekuatan " + (getPower() * 2);
-    }
+  @Override
+  public String attack(String jurus) {
+      return "Senjata " + getNama() + " menggunakan jurus " + jurus + " menyerang dengan kekuatan " + (getPower() * 2);
+  }
+
+  @Override
+  public String upgrade(int power) {
+      return "Senjata " + getNama() + " telah upgraded! current power: " + (this.power + power);
+  }
+
+
 
 }
 
