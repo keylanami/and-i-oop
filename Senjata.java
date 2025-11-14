@@ -27,7 +27,7 @@ public abstract class Senjata implements AksiSenjata {
 
   @Override
   public String upgrade(int power) {
-      return "Senjata " + getNama() + " telah upgraded! current power: " + (this.power + power);
+      return "Senjata " + getNama() + " telah upgraded! current power: " + (this.power += power);
   }
 
 
